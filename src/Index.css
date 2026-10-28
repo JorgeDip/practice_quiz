@@ -1,0 +1,66 @@
+:root {
+    --color-porcelain: #f7f7f2ff;
+    --color-beige: #e4e6c3ff;
+    --color-palm-leaf: #899878ff;
+    --color-carbon-black: #222725ff;
+    --color-onyx: #121113ff;
+
+    --color-alabaster-grey: #eaeaeaff;
+    --color-royal-plum: #893168ff;
+    --color-blackberry-cream: #4a1942ff;
+    --color-midnight-violet: #2e1c2bff;
+    --color-black: #050404ff;
+
+
+    /* 4px */
+    --size-3xs: 0.25rem;
+    /* 8px */
+    --size-2xs: 0.5rem;
+    /* 12px */
+    --size-xs: 0.75rem;
+    /* 14px */
+    --size-sm: 0.875rem;
+    /* 16px */
+    --size-base: 1rem;
+    /* 20px */
+    --size-md: 1.25rem;
+    /* 24px */
+    --size-lg: 1.5rem;
+    /* 32px */
+    --size-xl: 2rem;
+    /* 40px */
+    --size-2xl: 2.5rem;
+    /* 52px */
+    --size-3xl: 3.25rem;
+    /* 64px */
+    --size-4xl: 4rem;
+    /* 80px */
+    --size-5xl: 5rem;
+
+    --size-infinite: 999px;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--color-blackberry-cream);
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+main {
+    padding: var(--size-base);
+    width: 500px;
+
+    background-color: var(--color-alabaster-grey);
+
+    border-radius: var(--size-base);
+    border: var(--size-2xs) solid var(--color-royal-plum)
+}

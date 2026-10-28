@@ -1,0 +1,8 @@
+.badge {
+    background-color: var(--color-blackberry-cream);
+
+    color: var(--color-porcelain);
+
+    padding: var(--size-2xs) var(--size-base);
+    border-radius: var(--size-infinite);
+}
