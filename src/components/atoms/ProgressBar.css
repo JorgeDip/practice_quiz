@@ -1,0 +1,21 @@
+.progress-bar {
+    padding: var(--size-base);
+    border-radius: var(--size-2xs);
+    border: 2px solid var(--color-royal-plum);
+}
+
+.progress-bar span {
+    font-size: var(--font-size-xs);
+}
+
+.progress-bar__track {
+    border: 1px solid var(--color-midnight-violet);
+    border-radius: var(--size-base);
+
+    overflow: hidden;
+}
+
+.progress-bar__fill {
+    background-color: var(--color-royal-plum);
+    height: 10px;
+}
