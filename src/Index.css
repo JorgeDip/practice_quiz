@@ -62,6 +62,8 @@
     /* ~57.3px */
     --font-size-4xl: 3.583rem;
 
+    --transition: 200ms linear;
+
 }
 
 * {

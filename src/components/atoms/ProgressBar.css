@@ -2,6 +2,7 @@
     padding: var(--size-base);
     border-radius: var(--size-2xs);
     border: 2px solid var(--color-royal-plum);
+
 }
 
 .progress-bar span {
@@ -18,4 +19,5 @@
 .progress-bar__fill {
     background-color: var(--color-royal-plum);
     height: 10px;
+    transform: all 300ms;
 }

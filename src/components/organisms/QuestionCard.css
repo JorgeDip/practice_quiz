@@ -4,11 +4,19 @@
     gap: 1rem;
 }
 
+.question-card h2 {
+    text-align: center;
+}
+
 .answer-options {
     display: flex;
     flex-direction: column;
+    gap: var(--size-2xs);
 
     padding: var(--size-base);
     border-radius: var(--size-2xs);
     border: 2px solid var(--color-royal-plum);
+
+    overflow: hidden;
+
 }

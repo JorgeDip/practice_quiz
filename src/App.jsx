@@ -72,6 +72,7 @@ function App() {
             locked={selectedAnswer !== null}
             correctAnswer={correctAnswer}
             onSelect={handleSelect}
+            userAnswer={userAnswers[currentIndex]}
           />
 
           <Button onClick={handleNext} disabled={selectedAnswer === null}>

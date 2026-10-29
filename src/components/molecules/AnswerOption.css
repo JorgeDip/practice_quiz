@@ -1,0 +1,38 @@
+.answer-option {
+    padding: var(--size-2xs);
+    border: 1px solid var(--color-blackberry-cream);
+    border-radius: var(--size-2xs);
+
+    transition: var(--transition);
+    animation: answerOption 500ms;
+    cursor: pointer;
+}
+
+.answer-option input {
+    display: none;
+}
+
+@keyframes answerOption {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.answer-option:hover {
+    background-color: var(--color-royal-plum);
+
+    color: var(--color-porcelain);
+}
+
+.answer-option.correct {
+    background-color: green;
+    color: var(--color-porcelain);
+}
+
+.answer-option.incorrect {
+    color: red;
+}
