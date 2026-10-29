@@ -85,27 +85,3 @@ body {
     display: grid;
     place-items: center;
 }
-
-main {
-    padding: var(--size-base);
-    width: 700px;
-
-    background-color: var(--color-alabaster-grey);
-
-    border-radius: var(--size-base);
-    border: var(--size-2xs) solid var(--color-royal-plum);
-
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-h1 {
-    font-size: var(--font-size-xl);
-    text-align: center;
-}
-
-.logo {
-    width: 250px;
-
-}

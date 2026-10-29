@@ -17,7 +17,6 @@
 }
 
 .btn:disabled {
-    pointer-events: none;
     background-color: var(--color-midnight-violet);
     cursor: not-allowed;
 }
