@@ -17,8 +17,11 @@ export default function QuestionCard({ question, selected, locked, onSelect, cor
         <div className="question-card">
 
             <h2>{question.text}</h2>
-            <fieldset className="answer-options">
-                <Badge>{question.difficulty}</Badge>
+            <fieldset className="question-card__options">
+                <div className="question-card__info">
+                    <Badge variant={question.difficulty}>{question.difficulty}</Badge>
+                    <Badge>{question.category}</Badge>
+                </div>
                 {question.options.map((answer) => (
                     <AnswerOption
                         key={answer}

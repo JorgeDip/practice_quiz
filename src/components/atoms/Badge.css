@@ -7,9 +7,17 @@
 
     padding: var(--size-3xs) var(--size-xs);
     border-radius: var(--size-infinite);
+}
 
-    position: absolute;
-    left: -15px;
-    top: -15px;
-    z-index: 1;
+.badge.easy {
+    background-color: var(--color-correct-answer);
+}
+
+.badge.medium {
+    background-color: orange;
+    color: var(--color-black);
+}
+
+.badge.hard {
+    background-color: var(--color-incorrect-answer);
 }

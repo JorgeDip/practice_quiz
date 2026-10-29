@@ -1,4 +1,4 @@
-.answer-option {
+.question-card__option {
     padding: var(--size-2xs);
     border: 2px solid var(--color-royal-plum);
     border-radius: var(--size-2xs);
@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.answer-option input {
+.question-card__option input {
     display: none;
 }
 
@@ -23,7 +23,7 @@
     }
 }
 
-.answer-option:hover {
+.question-card__option:hover {
     background-color: var(--color-royal-plum);
 
     border: 2px solid var(--color-royal-plum-dark);
@@ -31,14 +31,14 @@
     color: var(--color-porcelain);
 }
 
-.answer-option.correct {
+.question-card__option.correct {
     background-color: var(--color-correct-answer);
     border-color: var(--color-correct-answer-hover);
 
     color: var(--color-porcelain);
 }
 
-.answer-option.incorrect {
+.question-card__option.incorrect {
     background: var(--color-incorrect-answer);
 
     border-color: var(--color-incorrect-answer-hover);
