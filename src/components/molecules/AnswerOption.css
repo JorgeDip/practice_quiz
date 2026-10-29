@@ -1,6 +1,6 @@
 .answer-option {
     padding: var(--size-2xs);
-    border: 1px solid var(--color-blackberry-cream);
+    border: 2px solid var(--color-royal-plum);
     border-radius: var(--size-2xs);
 
     transition: var(--transition);
@@ -11,6 +11,7 @@
 .answer-option input {
     display: none;
 }
+
 
 @keyframes answerOption {
     0% {
@@ -25,14 +26,22 @@
 .answer-option:hover {
     background-color: var(--color-royal-plum);
 
+    border: 2px solid var(--color-royal-plum-dark);
+
     color: var(--color-porcelain);
 }
 
 .answer-option.correct {
-    background-color: green;
+    background-color: var(--color-correct-answer);
+    border-color: var(--color-correct-answer-hover);
+
     color: var(--color-porcelain);
 }
 
 .answer-option.incorrect {
-    color: red;
+    background: var(--color-incorrect-answer);
+
+    border-color: var(--color-incorrect-answer-hover);
+
+    color: var(--color-porcelain);
 }

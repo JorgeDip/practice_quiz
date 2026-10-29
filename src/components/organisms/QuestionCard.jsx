@@ -1,3 +1,4 @@
+import Badge from '../atoms/Badge';
 import AnswerOption from '../molecules/AnswerOption';
 import './QuestionCard.css';
 
@@ -17,6 +18,7 @@ export default function QuestionCard({ question, selected, locked, onSelect, cor
 
             <h2>{question.text}</h2>
             <fieldset className="answer-options">
+                <Badge>{question.difficulty}</Badge>
                 {question.options.map((answer) => (
                     <AnswerOption
                         key={answer}
@@ -30,8 +32,8 @@ export default function QuestionCard({ question, selected, locked, onSelect, cor
                 ))}
 
             </fieldset>
-            {locked && userAnswer !== correctAnswer && <>Incorrect! The correct answer was: {correctAnswer}</>}
-            {locked && userAnswer === correctAnswer && <>Correct!</>}
+            {/* {locked && userAnswer !== correctAnswer && <>Incorrect! The correct answer was: {correctAnswer}</>}
+            {locked && userAnswer === correctAnswer && <>Correct!</>} */}
         </div>
     );
 }

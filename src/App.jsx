@@ -8,7 +8,7 @@ import QuestionCard from './components/organisms/QuestionCard.jsx'
 
 // TODO
 // Añadir pildora de dificultad
-// Añadir feedback al seleccionar una respuesta (decir si la seleccionada es correcta, si no es correcta poner un texto con la respuesta correcta)
+// ✅ Añadir feedback al seleccionar una respuesta (decir si la seleccionada es correcta, si no es correcta poner un texto con la respuesta correcta)
 // Hacer componentes de las 3 fases
 // Mejorar el UI
 

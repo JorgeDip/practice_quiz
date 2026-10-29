@@ -5,8 +5,14 @@
     --color-carbon-black: #222725ff;
     --color-onyx: #121113ff;
 
+    --color-correct-answer: #3E8B63;
+    --color-correct-answer-hover: #286447;
+    --color-incorrect-answer: #C65365;
+    --color-incorrect-answer-hover: #96394B;
+
     --color-alabaster-grey: #eaeaeaff;
     --color-royal-plum: #893168ff;
+    --color-royal-plum-dark: #64234C;
     --color-blackberry-cream: #4a1942ff;
     --color-midnight-violet: #2e1c2bff;
     --color-black: #050404ff;
@@ -97,4 +103,9 @@ main {
 h1 {
     font-size: var(--font-size-xl);
     text-align: center;
+}
+
+.logo {
+    width: 250px;
+
 }

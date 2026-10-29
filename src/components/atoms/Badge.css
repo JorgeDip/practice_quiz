@@ -1,7 +1,15 @@
 .badge {
     background-color: var(--color-blackberry-cream);
-    color: var(--color-porcelain);
 
-    padding: var(--size-2xs) var(--size-base);
+    font-size: var(--font-size-2xs);
+    color: var(--color-porcelain);
+    text-transform: capitalize;
+
+    padding: var(--size-3xs) var(--size-xs);
     border-radius: var(--size-infinite);
+
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    z-index: 1;
 }
