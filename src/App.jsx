@@ -6,6 +6,12 @@ import { buildQuiz } from './utils/buildQuiz.js'
 import { useState } from 'react'
 import QuestionCard from './components/organisms/QuestionCard.jsx'
 
+// TODO
+// Añadir pildora de dificultad
+// Añadir feedback al seleccionar una respuesta (decir si la seleccionada es correcta, si no es correcta poner un texto con la respuesta correcta)
+// Hacer componentes de las 3 fases
+// Mejorar el UI
+
 function App() {
   const maxQuestions = 5
   const [phase, setPhase] = useState('start') // start, playing, finished
