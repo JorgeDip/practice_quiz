@@ -15,7 +15,7 @@ import FinishedQuizPage from "./FinishedQuizPage.jsx";
 
 
 export default function QuizPage() {
-    const maxQuestions = 20
+    const maxQuestions = 10
     const [phase, setPhase] = useState('start') // start, playing, finished
     const [questions, setQuestions] = useState(buildQuiz(programmingQuizQuestions.questions, maxQuestions))
     const [currentIndex, setcurrentIndex] = useState(0)
