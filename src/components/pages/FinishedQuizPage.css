@@ -1,0 +1,6 @@
+.quiz-score {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--size-base)
+}

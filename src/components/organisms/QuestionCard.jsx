@@ -28,7 +28,7 @@ export default function QuestionCard({ question, selected, locked, onSelect, cor
                         name={`question-${question.id}`}
                         text={answer}
                         checked={selected === answer}
-                        status={locked && answer === correctAnswer ? 'correct' : locked && answer !== correctAnswer ? 'incorrect' : 'idle'}
+                        status={locked && answer === correctAnswer ? 'correct' : locked && answer === selected ? 'incorrect' : 'idle'}
                         disabled={locked}
                         onChange={() => !locked && onSelect(answer)}
                     />
